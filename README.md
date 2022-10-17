@@ -1,1 +1,1 @@
-Printf 
+Re-code printf (funtion)
