@@ -102,14 +102,17 @@ int get_precision(const char *format, int *i, va_list list);
 int get_size(const char *format, int *i);
 
 /*Function to print string in reverse*/
+
 int print_reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
 /*Function to print a string in rot 13*/
+
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
 /* width handler */
+
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size);
 int write_number(int is_positive, int ind, char buffer[],
