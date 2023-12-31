@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -8,6 +9,7 @@
 #define BUFF_SIZE 1024
 
 /* FLAGS */
+
 #define F_MINUS 1
 #define F_PLUS 2
 #define F_ZERO 4
@@ -15,6 +17,7 @@
 #define F_SPACE 16
 
 /* SIZES */
+
 #define S_LONG 2
 #define S_SHORT 1
 
@@ -24,6 +27,7 @@
  * @fmt: The format.
  * @fn: The function associated.
  */
+
 struct fmt
 {
 	char fmt;
@@ -37,6 +41,7 @@ struct fmt
  * @fmt: The format.
  * @fm_t: The function associated.
  */
+
 typedef struct fmt fmt_t;
 
 int _printf(const char *format, ...);
