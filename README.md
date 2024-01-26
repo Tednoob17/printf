@@ -1,4 +1,1 @@
-## PRINTF FUNCTION IN C 
-
-
-## 
+## PRINTF FUNCTION IN C
