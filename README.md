@@ -1,3 +1,3 @@
-## Printf Function in C
+# Printf Function in C
 
 
